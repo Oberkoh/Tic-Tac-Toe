@@ -12,13 +12,11 @@ Player options include:
 Feel free to customize the player options and play it as you want  
 
 ## Pre-requisites
---------------
 
 - Any computer that has any version of python installed
 - Preferably use python 3 and above
 
 ## Usage
----------------
 
 Run game.py instead  
 player.py is imported in game.py, you don't have to run game.py
