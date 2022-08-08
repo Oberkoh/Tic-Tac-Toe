@@ -1,6 +1,7 @@
 from player import ComputerPlayer, HumanPlayer, GeniusComputerPlayer
 import time
 
+# Inner workings of the game
 class TicTacToe():
     def __init__(self):
         self.board = [' ' for _ in range(9)] # a single list 1x9 we'll later make it 3x3
@@ -62,7 +63,7 @@ class TicTacToe():
         return False
 
 
-
+# running the game itself
 def play(game, x_player, o_player, print_game=True):
     # retuns winner of game or prints it is a tie
     if print_game:
@@ -99,6 +100,7 @@ def play(game, x_player, o_player, print_game=True):
         print("It is a tie")
 
 
+# Called when the game is run
 if __name__ == '__main__':
     x_player = HumanPlayer('X')
     o_player = ComputerPlayer('O')
